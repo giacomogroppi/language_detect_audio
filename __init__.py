@@ -4,7 +4,7 @@ from googletrans import Translator
 
 async def audio_direct(dst, language):
     """
-    Fa la traduzione diretta a google e dopo manda il testo
+    It make the translation with google api
     """
     if True:
         r = sr.Recognizer()
