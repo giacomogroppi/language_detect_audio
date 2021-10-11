@@ -22,14 +22,6 @@ async def audio_direct(dst, language):
 
     return testo_tradotto_intero
 
-    try:
-        print("")
-    except Exception as e:
-        """ Error in e """
-        pass
-
-
-
 
 async def lingua_ritorno(dst, lingue=None):
     """
